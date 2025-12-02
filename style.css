@@ -3,10 +3,19 @@ body {
 }
 #title {
 	color: blue;
+	text-align:center;
 }
 #socials {
 	float:right;
 }
 #links {
 	float:right;
+}
+#logo {
+	float:right;
+	width:600px;
+	height:500px;
+}
+#info1 {
+	font-size:22px;
 }
