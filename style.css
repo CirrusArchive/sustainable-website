@@ -1,1 +1,12 @@
 body {
+	background-color:lightblue;
+}
+#title {
+	color: blue;
+}
+#socials {
+	float:right;
+}
+#links {
+	float:right;
+}
