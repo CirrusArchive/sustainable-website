@@ -1,5 +1,6 @@
 body {
 	background-color:lightblue;
+	text-align:center;
 }
 #title {
 	color: blue;
@@ -18,4 +19,10 @@ body {
 }
 #info1 {
 	font-size:22px;
+}
+li {
+	font-size:18px;
+}
+h4 {
+	float:right;
 }
