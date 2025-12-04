@@ -1,47 +1,57 @@
 /*Honestly a nice font type */
-
+/*Gonna  try and like comment on the lines. CAUSE I DO NOT WANT A BUNCH OF EXTRA LINES
 /* General stuff */
 body {
-    font-family: "Noto Serif", serif;
-    background-color: #F4ECDD;
-	color:#2B2527;
+    font-family: "Noto Serif", serif; /* The main font, I don't own zalando sans, really stupid */
+    background-color: #F4ECDD; /* Page background color*/
+	color:#2B2527; /* Text color literally not gonna be touched*/
+	position: relative; /* Positioning my elements of course*/
 }
 
 /* Header stuff */
-.page-header {
-    background-color:#C38B3F;
-	color:#F4ECDD;
-    padding: 50px 0;
+.page-header { 
+    background-color:#C38B3F; /* Header background this time*/
+	color:#F4ECDD; /*Header text color */
+    padding: 50px 0; /* Space around my header text*/
 }
 
 /* Logo stuff */
 #logo {
-	width:100%;
-    max-width: 400px;
-    display: block;
-    margin: 30px auto;
-	height:auto;
+	width:100%; /* How to change the width*/
+    max-width: 400px; /* How wide it maxes at*/
+    display: block; /* Removes the annoying inline spacing*/
+    margin: 30px auto; /* Centers it */
+	height:auto; /* Helps to keep the proportions*/
 }
 
 /* Footer stuff */
 .page-footer {
-    background-color:#C38B3F;
-	color:#F4ECDD;
+    background-color:#C38B3F; /* Footer background*/
+	color:#F4ECDD; /* footer text color*/
+	height:80px; /* footer height*/
+	text-align:center; /* also centers texts */
+	position:relative;  /* Forces the items inside*/
 }
 
 /* List stuff */
-.custom-list .list-group-item {
-    background-color: #93B274;
-    border: 1px solid #2B2527;
-	color: #2B2527;
+.custom-list .list-group-item { 
+    background-color: #93B274; /* list item background color*/
+    border: 1px solid #2B2527; /* the border color*/
+	color: #2B2527; /* the text color*/
 }
 
 /* Link stuff */
 a {
-    color: #2B2527;
-    text-decoration: none;
+    color: #2B2527; /* the link color */
+    text-decoration: none; /* just gets rid of the underline for links, or maybe I should have it still.*/
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline;/* Underlines on hover, but like this basically activates when you hover over with the mouse. IMMA JUST LEAVE IT ALONE.*/
+}
+#corner-image {
+    position: absolute;  /* Positioned anything into the footer*/
+    bottom: 5px;   /* Starts from the bottom */ 
+    right: 20px;  /* Starts from the right */
+    width: 60px;   /* Image Size */   
 }
