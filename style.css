@@ -1,11 +1,11 @@
 /*Honestly a nice font type */
 body {
-	background-color:#00ADEF;
+	background-color:#93B274;
 	font-family: "Inter", sans-serif;
 }
 /* Gotta make my header somewhat presentable */
 .page-header {
-	background-color:#00ADEF;
+	background-color:#2B2527;
 	padding:50px 0;
 }
 
@@ -24,18 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 /* footer part */
 
 .page-footer {
-	background-color:#00ADEF;
+	background-color:#BC882E;
 }
 
 /* list styling */
 .custom-list .list-group-item {
-	background-color:#00ADEF;
+	background-color:#F4ECDD;
 	border: 1px solid #ddd;
 }
 
 /* my link stuff */
 a {
-	color:#00ADEF;
+	color:#2B2527;
 	text-decoration:none;
 }
 a:hover {
