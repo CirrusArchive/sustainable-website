@@ -3,36 +3,42 @@
 /* General stuff */
 body {
     font-family: "Noto Serif", serif;
-    background-color: #f8f9fa;
+    background-color: #F4ECDD;
+	color:#2B2527;
 }
 
 /* Header stuff */
 .page-header {
-    background-color: #343a40;
+    background-color:#C38B3F;
+	color:#F4ECDD;
     padding: 50px 0;
 }
 
 /* Logo stuff */
 #logo {
-    max-width: 250px;
+	width:100%;
+    max-width: 400px;
     display: block;
     margin: 30px auto;
+	height:auto;
 }
 
 /* Footer stuff */
 .page-footer {
-    background-color: #343a40;
+    background-color:#C38B3F;
+	color:#F4ECDD;
 }
 
 /* List stuff */
 .custom-list .list-group-item {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #93B274;
+    border: 1px solid #2B2527;
+	color: #2B2527;
 }
 
 /* Link stuff */
 a {
-    color: #0d6efd;
+    color: #2B2527;
     text-decoration: none;
 }
 
