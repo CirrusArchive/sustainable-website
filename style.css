@@ -1,43 +1,41 @@
 /*Honestly a nice font type */
+
+/* General stuff */
 body {
-	background-color:#93B274;
-	font-family: "Inter", sans-serif;
+    font-family: "Noto Serif", serif;
+    background-color: #f8f9fa;
 }
-/* Gotta make my header somewhat presentable */
+
+/* Header stuff */
 .page-header {
-	background-color:#2B2527;
-	padding:50px 0;
+    background-color: #343a40;
+    padding: 50px 0;
 }
 
-/* heading for the fonts */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", serif;
-}
-
-/*The first logo*/
+/* Logo stuff */
 #logo {
-	max-width:250px;
-	display:block;
-	margin: 30px auto;
+    max-width: 250px;
+    display: block;
+    margin: 30px auto;
 }
 
-/* footer part */
-
+/* Footer stuff */
 .page-footer {
-	background-color:#BC882E;
+    background-color: #343a40;
 }
 
-/* list styling */
+/* List stuff */
 .custom-list .list-group-item {
-	background-color:#F4ECDD;
-	border: 1px solid #ddd;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
 }
 
-/* my link stuff */
+/* Link stuff */
 a {
-	color:#2B2527;
-	text-decoration:none;
+    color: #0d6efd;
+    text-decoration: none;
 }
+
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
