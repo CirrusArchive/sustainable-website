@@ -1,5 +1,6 @@
 /*Honestly a nice font type */
 /*Gonna  try and like comment on the lines. CAUSE I DO NOT WANT A BUNCH OF EXTRA LINES
+/* This is the css for my history.html */
 /* General stuff */
 body {
     font-family: "Noto Serif", serif; /* The main font, I don't own zalando sans, really stupid */
@@ -55,3 +56,10 @@ a:hover {
     right: 20px;  /* Starts from the right */
     width: 60px;   /* Image Size */   
 }
+/* Round 2, the start of the goal's css*/
+/* Should have done this sooner but lowkey lost with which color is what. */
+/* Dark brown is #2B2527*/
+/* Whiteish color is #F4ECDD*/
+/* Muted Green is #93B274*/
+/* Golden Brown is #C38B3F*/
+/* Bright Blue is #00ADEF*/
