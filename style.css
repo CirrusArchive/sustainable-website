@@ -94,67 +94,66 @@ a:hover {
 
 #info-heading { 
 	color:#C38B3F; /*Sets the color */
-	font-size:2rem;
+	font-size:32px;
 }
 #info-subheading {
 	color:#2B2527; /*Sets the color */
-	font-size:1rem;
+	font-size:16px; /*Sets the font size to whatever*/
 }
 #info-box{
-	padding:20px;
+	padding:20px; /* Padding inside the box*/
 }
 #info-list li {
-	margin-bottom: 8px;
+	margin-bottom: 8px; /*Spacing between lists */
 }
 
 /* image css for goals */
 
 #img1-box,#img2-box {
-	width:100%;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	padding: 0;
+	width:100%; /* Becomes/matchs the container*/
+	display:flex; /* Align thorugh the use of flexbox*/
+	justify-content:center; /* centers horizontally*/
+	align-items:center;/*Centers it vertically */
+	padding: 0; /* Padding won't be in the container*/
 }
 #img2 {
-	margin-left:100px;
-	margin-bottom:20px;
-	height:800px;
-	width:525px;
+	margin-left:100px; /* Pushed too the left by 100*/
+	margin-bottom:20px; /* add space from the image*/
+	height:800px; /* HOW GIANT IT IS*/
+	width:525px; /* HOW WIDE IS IT */
 }
 #img1 {
-	margin-right:108px;
-	margin-bottom:30px;
-	height:800px;
-	width:520px;
+	margin-right:108px; /* Push a bit to right*/
+	margin-bottom:30px; /* made a lil space from image*/
+	height:800px; /*How tall it is */
+	width:520px; /*How chonky it is */
 }
 #img3 {
-	width:700px;
-	height:250px;
-	margin-right:100px;
+	width:700px;/*WIDEEEE */
+	height:250px; /*TALLLER */
+	margin-right:100px; /*PUSHED TO THE RIGHTTTT */
 }
 #img3-box {
-	display:block;
-	width:100%;
-	margin-left:0;
+	display:block; /* Container block  element*/
+	width:100%; /* The entire container is it.*/
+	margin-left:0;/* Aligns to the left*/
 }
 #img3-label {
-	font-size:1rem;
+	font-size:16px; /*Sets the font size to whatever*/
 	color:#2B2527; /*Sets the color */
-	margin-right:400;
-	margin-bottom:1px;
+	margin-right:400; /*Push to the right */
+	margin-bottom:1px; /* space below label */
 }
 #goal-li, #img3-label {
-	margin:0;
-	padding-left:20px;
+	margin:0; /* Remove margin default*/
+	padding-left:20px; /*Slided to left */
 }
 #goal-li {
-	margin-right:400px;
+	margin-right:400px; /* Moved to the righttt*/
 	list-style-position:inside; /* in theory should give the bullets in the container*/
 	list-style-type:disc; /*FORCES ME TO HAVE BULLETS */
 	margin: 0; /* Set the margin to zero */
-	padding-left: 0;
-	
+	padding-left: 0; /*Removes the padding from left */
 }
 /* contact us/links css for goals*/
 
@@ -162,22 +161,22 @@ a:hover {
 	color:#C38B3F; /*Sets the color */
 }
 #contact-col, #links-col {
-	margin-left:40px;
+	margin-left:40px; /* Push to left*/
 }
 
 /* footer css for goals*/
 
 #full-footer {
-	background-color: #C38B3F;
-	width:100%;
+	background-color: #C38B3F; /* Sets the background color */
+	width:100%; /* Becomes like the entire thing*/
 }
 
 .footer-box {
-	background-color:#C38B3F;
+	background-color:#C38B3F; /*Sets the background color */
 	color:#2B2527; /*Sets the color */
-	padding:15px;
+	padding:15px; /* Space inside fioter*/
 }
 #footer-text {
 	margin:0; /* Set the margin to zero */
-	font-size:3;
+	font-size:3px;/*Sets the font size to whatever*/
 }
