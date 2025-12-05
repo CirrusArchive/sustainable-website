@@ -82,13 +82,6 @@ a:hover {
 	padding:0;
 }
 
-/* my box css for goals */
-.box {
-	background-color:#F4ECDD;
-	border-radius: 8px;
-	padding:20px;
-}
-
 /* nav css for goals*/
 #nav-title {
 	color:#C38B3F;
@@ -100,34 +93,38 @@ a:hover {
 
 #info-heading {
 	color:#C38B3F;
-	font-size:40px;
+	font-size:2rem;
 }
 #info-subheading {
 	color:#2B2527;
-	font-size:10px;
+	font-size:1rem;
 }
-#info-list {
+#info-box{
+	padding:20px;
 }
 #info-list li {
 	margin-bottom: 8px;
 }
 
 /* image css for goals */
-#img1-box {
-	height:450px;
-	width:300px;
+#img1-box,#img2-box {
+	width:100%;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	padding: 0;
 }
-#img1 {
-	object-fit:cover;
-	width:100%;
-	height:auto;
-}
 #img2 {
-	height:540px;
+	margin-left:100px;
+	margin-bottom:20px;
+	height:600px;
+	width:500px;
+}
+#img1 {
+	margin-right:108px;
+	margin-bottom:30px;
+	height:600px;
+	width:500px;
 }
 #img3 {
 	width:200px;
