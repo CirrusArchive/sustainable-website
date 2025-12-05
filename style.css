@@ -127,8 +127,18 @@ a:hover {
 	width:520px;
 }
 #img3 {
-	width:100px;
-	height:40px;
+	width:525px;
+	height:250px;
+	margin-left:227px;
+	margin-bottom:20px;
+}
+#img3-label {
+	font-size:1rem;
+	color:#2B2527;
+	margin-left:210px;
+}
+#goal-li {
+	margin-left:210px;
 }
 
 /* contact us css for goals*/
