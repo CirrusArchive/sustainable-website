@@ -74,6 +74,12 @@ a:hover {
 	background-color:#93B274;
 	font-weight:600; /* It going from 1 too 900 in like depth/boldness is honestly neat, I might use this more. */
 	margin:0;
+	text-align:center;
+}
+#header-box {
+	width:100%;
+	margin:0;
+	padding:0;
 }
 
 /* my box css for goals */
@@ -101,7 +107,6 @@ a:hover {
 	font-size:10px;
 }
 #info-list {
-	padding-left:20px
 }
 #info-list li {
 	margin-bottom: 8px;
@@ -110,14 +115,19 @@ a:hover {
 /* image css for goals */
 #img1-box {
 	height:450px;
+	width:300px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
 #img1 {
 	object-fit:cover;
-	width:100%;
-	height:100%;
+	width:50%;
+	height:50%;
+}
+#img2 {
+	height:740px;
+}
 
 /* contact us css for goals*/
 
@@ -127,13 +137,18 @@ a:hover {
 
 /* footer css for goals*/
 
+#full-footer {
+	background-color: #C38B3F;
+	width:100%;
+}
+
 .footer-box {
 	background-color:#C38B3F;
 	color:#2B2527;
 	padding:15px;
-	border-radius:8px;
 }
 #footer-text {
-	margin: 0;
-	font-size:19px;
+	margin:0;
+	font-size:3;
 }
+
