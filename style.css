@@ -108,7 +108,12 @@ a:hover {
 }
 
 /* image css for goals */
-
+#img1-box {
+	height:450px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 
 
 /* contact us css for goals*/
