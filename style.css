@@ -71,32 +71,33 @@ a:hover {
 /* header tag for goals */
 
 #header-title {
-	background-color:#93B274;
+	background-color:#93B274; /* The background color*/
 	font-weight:600; /* It going from 1 too 900 in like depth/boldness is honestly neat, I might use this more. */
-	margin:0;
-	text-align:center;
+	margin:0; /* Set the margin to zero */
+	text-align:center; /* aligns its horizontal for me*/
 }
 #header-box {
-	width:100%;
-	margin:0;
-	padding:0;
+	width:100%; /* the header spans the literal container */
+	margin:0; /* destroys the default margin*/
+	padding:0; /* Removes default of the padding */
 }
 
 /* nav css for goals*/
 #nav-title {
-	color:#C38B3F;
-	font-weight: 400;
-	margin: 0;
+	color:#C38B3F; /* Set color of text*/
+	font-weight: 400; /* Lower font weight*/
+	margin: 0; /* Evicerates the defaul of the margin*/
 }
-
+ /* I GIVE UP ON COMING UP WITH NEW LINES FOR SAME STUFF OVER AND OVER. COPY AND PASTE IT IS. */
+ 
 /* main stuff for goals*/
 
-#info-heading {
-	color:#C38B3F;
+#info-heading { 
+	color:#C38B3F; /*Sets the color */
 	font-size:2rem;
 }
 #info-subheading {
-	color:#2B2527;
+	color:#2B2527; /*Sets the color */
 	font-size:1rem;
 }
 #info-box{
@@ -128,32 +129,37 @@ a:hover {
 	width:520px;
 }
 #img3 {
-	width:525px;
+	width:700px;
 	height:250px;
+	margin-right:100px;
 }
 #img3-box {
-	display:flex;
-	flex-direction: column;
-	align-items: flex-end;
+	display:block;
+	width:100%;
+	margin-left:0;
 }
 #img3-label {
 	font-size:1rem;
-	color:#2B2527;
+	color:#2B2527; /*Sets the color */
+	margin-right:400;
+	margin-bottom:1px;
 }
 #goal-li, #img3-label {
-	text-align:right;
+	margin:0;
+	padding-left:20px;
 }
-/* section part I guess?*/
-
-#lower-section {
-		display:flex;
-		align-items:flex-start;
+#goal-li {
+	margin-right:400px;
+	list-style-position:inside; /* in theory should give the bullets in the container*/
+	list-style-type:disc; /*FORCES ME TO HAVE BULLETS */
+	margin: 0; /* Set the margin to zero */
+	padding-left: 0;
+	
 }
-
 /* contact us/links css for goals*/
 
 #contact-title, #links-title {
-	color:#C38B3F;
+	color:#C38B3F; /*Sets the color */
 }
 #contact-col, #links-col {
 	margin-left:40px;
@@ -168,10 +174,10 @@ a:hover {
 
 .footer-box {
 	background-color:#C38B3F;
-	color:#2B2527;
+	color:#2B2527; /*Sets the color */
 	padding:15px;
 }
 #footer-text {
-	margin:0;
+	margin:0; /* Set the margin to zero */
 	font-size:3;
 }
