@@ -107,6 +107,7 @@ a:hover {
 }
 
 /* image css for goals */
+
 #img1-box,#img2-box {
 	width:100%;
 	display:flex;
@@ -129,22 +130,33 @@ a:hover {
 #img3 {
 	width:525px;
 	height:250px;
-	margin-left:227px;
-	margin-bottom:20px;
+}
+#img3-box {
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 #img3-label {
 	font-size:1rem;
 	color:#2B2527;
-	margin-left:210px;
 }
-#goal-li {
-	margin-left:210px;
+#goal-li, #img3-label {
+	text-align:right;
+}
+/* section part I guess?*/
+
+#lower-section {
+		display:flex;
+		align-items:flex-start;
 }
 
-/* contact us css for goals*/
+/* contact us/links css for goals*/
 
 #contact-title, #links-title {
 	color:#C38B3F;
+}
+#contact-col, #links-col {
+	margin-left:40px;
 }
 
 /* footer css for goals*/
@@ -163,4 +175,3 @@ a:hover {
 	margin:0;
 	font-size:3;
 }
-
