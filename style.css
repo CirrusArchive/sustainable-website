@@ -117,17 +117,18 @@ a:hover {
 #img2 {
 	margin-left:100px;
 	margin-bottom:20px;
-	height:600px;
-	width:500px;
+	height:800px;
+	width:525px;
 }
 #img1 {
 	margin-right:108px;
 	margin-bottom:30px;
-	height:600px;
-	width:500px;
+	height:800px;
+	width:520px;
 }
 #img3 {
-	width:200px;
+	width:100px;
+	height:40px;
 }
 
 /* contact us css for goals*/
