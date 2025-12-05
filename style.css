@@ -69,6 +69,21 @@ a:hover {
 
 /* header tag for goals */
 
+#header-title {
+	background-color:#93B274;
+	font-weight:600; /* It going from 1 too 900 in like depth/boldness is honestly neat, I might use this more. */
+	margin:0;
+}
+
+/* my box css for goals */
+.box {
+	background-color:#F4ECDD;
+	border-radius: 8px;
+	padding:20px;
+}
+
+/* box like css for goals */
+
 
 
 
@@ -85,12 +100,12 @@ a:hover {
 
 
 
-/* image like css for placing */
+/* image like css for goals */
 
 
 
-/* contact us css */
+/* contact us css for goals*/
 
 
 
-/* link css*/
+/* link css for goals*/
