@@ -82,19 +82,29 @@ a:hover {
 	padding:20px;
 }
 
-/* box like css for goals */
-
-
-
-
-
 /* nav css for goals*/
-
-
-
-
+#nav-title {
+	color:#C38B3F;
+	font-weight: 400;
+	margin: 0;
+}
 
 /* main stuff for goals*/
+
+#info-heading {
+	color:#C38B3F;
+	font-size:1;
+}
+#info-subheading {
+	color:#2B2527;
+	font-size:1;
+}
+#info-list {
+	padding-left:20px
+}
+#info-list li {
+	margin-bottom: 8px;
+}
 
 
 
